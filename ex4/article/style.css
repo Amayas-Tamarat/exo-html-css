@@ -2,7 +2,7 @@ html, body{
     @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
     font-family: 'Roboto', sans-serif;  
 }
-
+/*background settings*/
 body{
     background-color: white
     }
@@ -11,6 +11,7 @@ body{
     margin: 0;
   }
 
+/*header settings*/
 .header{
     height: 60px;
     width: 100%;
@@ -21,11 +22,29 @@ body{
 
 }
 
+/* horizontal list*/ 
 ul, li {
     display:inline
 }
 
+/*surline en gris les liens */
 li:hover{
     color: gray;
     background-color: gray;
 }
+
+.article1{
+    padding: 10px; 
+    text-justify: auto;
+}
+h2{
+    text-transform: uppercase;
+}
+
+footer {
+    position:absolute;
+    bottom:0;  /* on le colle en bas */
+    width:100%;
+    height:30px;   /* Hauteur du pied de page */
+}
+
