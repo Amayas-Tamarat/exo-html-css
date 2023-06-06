@@ -23,7 +23,7 @@ a { color: white; font-size: 16px; line-height: 50px; text-decoration: none; }
 
 ul li{
   flex: 1;
-  height: 50px;
+  height: 50%;
 }
 
 ul li a {
@@ -34,6 +34,14 @@ ul li a {
   ul{
     flex-direction:column;
   }
+}
+
+ul li:hover{
+  height:80px;
+}
+
+ul li:hover a{
+  line-height: 80px;
 }
 
 
