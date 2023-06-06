@@ -11,7 +11,30 @@ footer { background-color: #e74c3c; }
  
 .container {
 	display: grid;
-	grid-template-columns:1fr 1fr;
-	grid-template-rows: 15em 15em 15em
-	;
+	grid-template-columns:1fr 3fr 1fr;
+	grid-template-rows: 50px 100px 50px;
+}
+
+header{
+	grid-column: 1/4;
+	grid-row: 1/2;
+}
+
+footer{
+	grid-column: 1/4;
+}
+
+nav{
+	grid-column: 1/2;
+	grid-row: 2/4;
+}
+
+section{
+	grid-column: 2/3;
+	grid-row: 2/4;
+}
+
+aside{
+	grid-column: 3/4;
+	grid-row: 2/4;
 }
