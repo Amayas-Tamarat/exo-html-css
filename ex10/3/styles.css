@@ -1,6 +1,6 @@
 /* ====================================
-   CSS setup – ne rien modifier
-   éditer plus bas
+   CSS setup ï¿½ï¿½ne rien modifier
+   ï¿½diter plus bas
  * ==================================== */
 
 body { margin: 0; padding: 0; border: 0; }
@@ -14,9 +14,42 @@ div:nth-of-type(5n) { background-color: #e74c3c; }
 span { background-color: rgba(255, 255, 255, .5); border-radius: 50%; display: block; font-size: 48px; height: auto; line-height: 3em; text-align: center; width: 3em; }
 
 /* ====================================
-   éditer à partir d'ici
+   ï¿½diter ï¿½ partir d'ici
  * ==================================== */
 
 section {
-  height: 100vh; /* ne pas éditer cette ligne */
+  height: 100vh; /* ne pas ï¿½diter cette ligne */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:column;
+  width: 90%;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+div{
+  display: flex;
+  margin: 10px;
+  width: 30%;
+  flex-grow: 1;
+  align-items: center;
+}
+
+span{
+  margin: auto;
+}
+
+section div:last-child{
+  width: 25%;
+  height: 100%;
+}
+
+section div{
+  width:calc(33% - 20px);
+  height:calc(25% - 20px);
+  margin:10px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
 }
